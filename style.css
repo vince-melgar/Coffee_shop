@@ -263,8 +263,8 @@ h5{
 
 
 
-/* our gallary start */
-#gallary{
+/* our gallery start */
+#gallery {
     width: 100%;
 }
 .heading5{
@@ -274,14 +274,14 @@ h5{
     font-size: 30px;
     font-weight: bold;
 }
-#gallary .heading5 span{
+#gallery .heading5 span{
     color: #b2744c;
 }
-#gallary .card{
+#gallery .card{
     border-radius: 10px;
     cursor: pointer;
 }
-#gallary .card img{
+#gallery .card img{
     border-radius: 10px;
 }
 /* our gallary end */
