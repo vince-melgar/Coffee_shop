@@ -64,7 +64,7 @@ h5{
     color: black;
 }
 #navbar form button{
-    background: black;
+    background: crimson;
     color: white;
     border: 1px solid white;
 }
@@ -155,6 +155,8 @@ h5{
 }
 #about .carousel img{
     border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
 }
 @media screen and (max-width:982px){
     #about p{
@@ -198,6 +200,7 @@ h5{
 }
 #menu .card{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 }
 .star i{
     color: #b2744c;
@@ -209,7 +212,7 @@ h5{
     font-size: 25px;
 }
 #menu p{
-    font-size: 16px;
+    font-size: 20px;
     color: #b2744c;
     padding-top: 10px;
     
@@ -218,6 +221,11 @@ h5{
     float: right;
     cursor: pointer;
 }
+#menu img{
+    height: 250px;
+    object-fit: cover;
+}
+
 /* menu end */
 
 
@@ -319,7 +327,7 @@ h5{
     color: black;
 }
 #contact input{
-    width: 360px;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #b2744c;
 }
@@ -339,6 +347,7 @@ h5{
     height: 56vh;
     background: black;
     margin-top: 78px;
+    
 }
 #contact h1{
     color: white;
@@ -445,8 +454,12 @@ html{
 .arrow{
     position: fixed;
     height: 50px;
-    bottom: 40px;
-    right: 50px;
+    bottom: 30px;
+    right: 40px;
     text-align: center;
     line-height: 50px;
+    color: crimson;
+}
+.arrow:hover{
+    color: #b2744c;
 }
