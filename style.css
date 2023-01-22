@@ -25,8 +25,8 @@ html ::-webkit-scrollbar{
 }
 #logo img{
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     margin-left: 40px;
     border-radius: 50%;
     overflow: hidden;
@@ -84,7 +84,7 @@ h5{
     background-position: 88%;
 }
 #home .content{
-    padding-top: 210px;
+    padding-top: 125px;
     margin-left: 56px;
 }
 #home .content h3{
