@@ -1,0 +1,267 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.all-content{    
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/background.jpg); 
+}
+
+/* navbar start */
+.navbar{
+    background-color: transparent;
+}
+#logo img{
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    margin-left: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h1 span{
+    text-transform: lowercase;
+    font-family: 'Ubuntu',sans-serif;
+    color: crimson;
+}
+h5{
+    text-transform: lowercase;
+    font-family: 'Ubuntu',sans-serif;
+    color: crimson;
+}
+
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form .btnSign{
+    background: white;
+    color: crimson;
+    border: 1px solid crimson;
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+#navbar form .btnJoin{
+    background: crimson;
+    color: white;
+    border: 1px solid white;
+    margin-right: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+/* navbar end */
+
+.bg-img{
+  background: url('./images/home3.jpg');
+  height: 90vh;
+  background-size: cover;
+  /* background-position: center; */
+}
+.bg-img:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.content_login{
+  position: absolute;
+  top: 58%;
+  left: 20%;
+  z-index: 999;
+  text-align: center;
+  padding: 30px 30px;
+  width: 370px;
+  height: 500px;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+.content_login header{
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: 'Ubuntu',sans-serif;
+}
+.field{
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  background: rgba(255,255,255,0.94);
+}
+.field span{
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+.field input{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: 'Ubuntu',sans-serif;
+}
+.space{
+  margin-top: 16px;
+}
+.show{
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: 'Nunito',sans-serif;
+}
+.pass-key:valid ~ .show{
+  display: block;
+}
+.pass{
+  text-align: left;
+  margin: 10px 0;
+}
+.pass a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Ubuntu',sans-serif;
+}
+.pass:hover a{
+  text-decoration: underline;
+}
+.field input[type="submit"]{
+  background: #3498db;
+  border: 1px solid #2691d9;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Ubuntu',sans-serif;
+}
+.field input[type="submit"]:hover{
+  background: #2691d9;
+}
+.login{
+  color: white;
+  margin: 20px 0;
+  font-family: 'Ubuntu',sans-serif;
+}
+.links{
+  display: flex;
+  cursor: pointer;
+  color: white;
+  margin: 0 0 20px 0;
+}
+.facebook,.instagram{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 10px;
+}
+.facebook{
+  margin-left: 0;
+  background: #4267B2;
+  border: 1px solid #3e61a8;
+}
+.instagram{
+  background: #E1306C;
+  border: 1px solid #df2060;
+}
+.facebook:hover{
+  background: #3e61a8;
+}
+.instagram:hover{
+  background: #df2060;
+}
+.links i{
+  font-size: 17px;
+}
+i span{
+  margin-left: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+}
+.signup{
+  font-size: 15px;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+.signup a{
+  color: #3498db;
+  text-decoration: none;
+}
+.signup a:hover{
+  text-decoration: underline;
+}
+
+/* footer start */
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.socail-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+/* footer end */
